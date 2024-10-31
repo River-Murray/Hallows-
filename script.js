@@ -84,9 +84,14 @@ function choiceR(){
     if (choiceY == "B"){
         document.getElementById("para8").innerHTML = "You Jump, Closing Your Eyes And Bracing For Impact"
         Math.random
+        dead();
     }
     if (choiceY == "C"){
         document.getElementById("para8").innerHTML = "Their Red Eyes Turn To Look At You. You Feel Dizzy And Suddenly Black Out";
     dead();
     }
 } 
+function secondFloor(){
+    document.getElementById("para11").innerHTML ="The Door Is Barred, And Will Not Open"
+    choice1();
+}

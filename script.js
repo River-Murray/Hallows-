@@ -67,4 +67,26 @@ function thirdFloor(){
     }
     if (choiceY == "A"){
         document.getElementById("para6").innerHTML = "You've Reached The Ground Floor Once More. It Has Become Significantly Darker Outside";
-    choice1();}
+    choice1();
+    }
+    if (choiceY == "B"){
+        document.getElementById("para6").innerHTML = "You Walk In Circles For What Feels Like Hours, Until You Realise The Voices Are On The Roof";
+        document.getElementById("para6").innerHTML = "You Climb The Stairwell Ladder Onto The Roof, Seeing A Circle Of Cloaked Figures";
+        
+}
+function choiceR(){
+    let choiceMm = prompt("Do You Freeze (A), Jump (B), Call Out(C)")
+
+    if (choiceY == "A"){
+        document.getElementById("para8").innerHTML = "You Feel Dizzy And Suddenly Black Out";
+    dead();
+    }
+    if (choiceY == "B"){
+        document.getElementById("para8").innerHTML = "You Jump, Closing Your Eyes And Bracing For Impact"
+        Math.random
+    }
+    if (choiceY == "C"){
+        document.getElementById("para8").innerHTML = "Their Red Eyes Turn To Look At You. You Feel Dizzy And Suddenly Black Out";
+    dead();
+    }
+} 
